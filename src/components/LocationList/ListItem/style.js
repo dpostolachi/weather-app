@@ -22,7 +22,7 @@ export default `
         transition: all .2s ease-out;
     }
 
-    .btn:hover:not([aria-active="true"]) {
+    .btn:hover:not(.btn-remove) {
         background: #7abcff;
     }
     .container[aria-active="true"] .btn:not(.btn-remove) {

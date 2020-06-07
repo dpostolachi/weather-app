@@ -78,7 +78,7 @@ export default class LocationList extends HTMLElement {
     }
 
     handleLocationRemove = ( { detail: { id } } ) => {
-        const elem = this.cityMap[ id ]
+        const elem = this.locationMap[ id ]
         this.locationMap[ id ] = undefined
         elem.remove()
     }
