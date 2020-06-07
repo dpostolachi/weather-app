@@ -17,6 +17,7 @@ router.get( '/api/search', async ( ctx ) => {
 
     } catch( e ) {
         ctx.status = 400
+        ctx.body = 'Failed to search for location.'
     }
 
 } )
@@ -30,6 +31,7 @@ router.get( '/api/location/:id', async ( ctx ) => {
 
     } catch ( e ) {
         ctx.status = 400
+        ctx.body = 'Failed to retrieve weather data.'
     }
 
 } )
