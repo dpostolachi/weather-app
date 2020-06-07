@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server",
-    "start": "nodemon server/index.js",
+    "start": "node server/index.js",
     "build": "NODE_SERVER_ENABLED=true NODE_ENV=production webpack"
   },
   "devDependencies": {
